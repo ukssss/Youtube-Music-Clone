@@ -1,0 +1,74 @@
+.account-screen-top {
+  margin-top: 138px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.account-screen__icon {
+  width: 42px;
+  height: 42px;
+  background-color: #c2175b;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-screen__text {
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-screen__name {
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.account-screen__help {
+  color: var(--googleBlue);
+  font-weight: 600;
+}
+
+.account-screen-mid {
+  margin-top: 57px;
+}
+
+.account-screen__lists {
+  margin-top: 35px;
+}
+
+.account-screen__list {
+  margin-bottom: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.account-screen__list > span:first-child,
+.account-screen__list > a:first-child {
+  width: 81px;
+  padding-left: 10px;
+  color: white;
+}
+
+.account-screen__list > span:last-child,
+.account-screen__list > a:last-child {
+  font-size: 18px;
+  color: white;
+}
+
+.account-screen-bot {
+  margin-top: 200px;
+  margin-bottom: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-screen-bot > span {
+  color: rgba(255, 255, 255, 0.7);
+}

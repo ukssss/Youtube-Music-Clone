@@ -1,0 +1,120 @@
+.browse-screen {
+  height: 138vh;
+}
+
+.browse-screen-top {
+  margin-top: 135px;
+}
+
+.browse-choice__lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.browse-choice__list {
+  width: 25%;
+  height: 108px;
+  background-color: #181818;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px 13px;
+}
+
+.browse-choice__list > span {
+  font-size: 19px;
+}
+
+.browse-screen-mid {
+  margin-top: 60px;
+}
+
+.browse-screen__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.browse-screen__title > span:first-child {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.browse-screen__title > span:last-child {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+
+.browse-screen-bot {
+  margin-top: 83px;
+}
+
+.genre-row__section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.genre-row__lists {
+  height: 205px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genre-row__list {
+  width: 178px;
+  height: 57px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #292929;
+}
+
+.genre-row__list > span:first-child {
+  width: 10px;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-right: 14px;
+}
+
+/* Genre Color */
+.genre-left__color1 {
+  background-color: #0091bf;
+}
+.genre-left__color2 {
+  background-color: #ff77ff;
+}
+.genre-left__color3 {
+  background-color: #a2c4fe;
+}
+.genre-left__color4 {
+  background-color: #cccccc;
+}
+.genre-left__color5 {
+  background-color: #cc0000;
+}
+.genre-left__color6 {
+  background-color: #7a3dda;
+}
+.genre-left__color7 {
+  background-color: #a3c5ff;
+}
+.genre-left__color8 {
+  background-color: #7b3edb;
+}
+.genre-left__color9 {
+  background-color: #a2fea3;
+}
